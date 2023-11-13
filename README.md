@@ -15,8 +15,8 @@ consuming over 416.2 TWh annually—surpassing the entire electricity consumptio
 - [Getting Started](#-getting-started)
 - [Usage](#-usage)
 - [Algorithms Used](#-algorithms-used)
-- [Built Using](#-built-using)
-- [Improvements](#-improvements)
+- [Built Using](#%EF%B8%8F-built-using)
+- [Improvements](#%EF%B8%8F-improvements)
 - [Contributors](#-contributors)
 
 ## 📜 Background
