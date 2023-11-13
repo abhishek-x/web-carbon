@@ -4,7 +4,7 @@
 With every web page generating 1.76g of carbon emissions, the cumulative effect of our online activities becomes a significant environmental concern. it's an energy-hungry colossus, 
 consuming over 416.2 TWh annually—surpassing the entire electricity consumption of the United Kingdom.
 
-`WebCarbon` is a Chrome Browser's extension, designed for tracking and calculating the CO2e emissions from your daily browsing, offering a real-time audit of your digital carbon footprint.
+`WebCarbon` is a Chrome Browser extension, designed for tracking and calculating the CO2e emissions from your daily browsing, offering a real-time audit of your digital carbon footprint.
 
 ![UI](ui.png)
 
@@ -21,11 +21,11 @@ consuming over 416.2 TWh annually—surpassing the entire electricity consumptio
 
 ## 📜 Background
 
-The inspiration of this project lies in a realization that the Internet's carbon footprint rivals that of the global aviation industry. 
-Data centers, transmission networks, and the billions of devices we use are steadily guzzling electricity, primarily sourced from fossil fuels. 
+The inspiration for this project lies in a realization that the Internet's carbon footprint rivals that of the global aviation industry. 
+Data centres, transmission networks, and the billions of devices we use are steadily guzzling electricity, primarily sourced from fossil fuels. 
 
 This project hopes to spark conversations about the sustainability of the internet and the steps we can take to reduce our online carbon footprint. 
-With data on energy consumption by websites, users can more informed decisions by understanding the real weight of your online activities in carbon emissions 
+With data on energy consumption by websites, users can more informed decisions by understanding the real weight of their online activities in carbon emissions 
 and be part of a solution that aims for a greener internet.
 
 `Because the internet shouldn't cost the earth.`
@@ -35,9 +35,9 @@ and be part of a solution that aims for a greener internet.
 
 1. Tracks ⏱️ real-time CO2e emissions from daily web browsing.
 2. Displays a 30-day graph 📊 of your browsing emissions.
-3. Offers an annual CO2e emission forecast 🌧️ using average your carbon emissions data (till date).
-4. Compares annual emissions to equivalent number of flights 🛫.
-5. Suggests the number of trees 🌴 to plant to offset emissions.
+3. Offers an annual CO2e emission forecast 🌧️ using average carbon emissions data (till date).
+4. Compares annual emissions to an equivalent number of flights 🛫.
+5. Suggest the number of trees 🌴 to plant to offset emissions.
 
 ## 🏁 Getting Started
 
@@ -55,7 +55,7 @@ and be part of a solution that aims for a greener internet.
 
 3. **Enable Developer Mode** by clicking the toggle switch next to `Developer mode`.
 
-4. **Unpack Extension** by clicking the `Load unpacked` button and select the extension directory.
+4. **Unpack Extension** by clicking the `Load unpacked` button and selecting the extension directory.
    ![Load Unpacked](https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/BzVElZpUtNE4dueVPSp3.png?auto=format&w=400)
 
 6. **Pin this Extension (Optional)**: Pin your extension to the toolbar to quickly access your extension.
@@ -86,7 +86,7 @@ and be part of a solution that aims for a greener internet.
    
    `treesNeeded = annualEmission / trees`
 
-   The `sum` variable aggregates the total carbon for the `days` counted, and days keeps track of the number of days with more than zero emissions. 
+   The `sum` variable aggregates the total carbon for the `days` counted, and days keep track of the number of days with more than zero emissions. 
 
 ## ⛏️ Built Using
 
