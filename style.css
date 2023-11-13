@@ -1,0 +1,142 @@
+:root {
+	--primary-color: #0AE187;
+	--secondary-color: #ddd;
+	--tertiary-color: #b8b8b8;
+	--background-color: #0f172a;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	width: 700px;
+	background-color: var(--background-color);
+}
+
+.logo {
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.logo-img {
+	height: 64px;
+	margin-right: 20px;
+}
+
+.logo-text {
+	color: var(--secondary-color);
+	font-size: 32px;
+	font-weight: bolder;
+}
+
+.sub-heading {
+	color: var(--tertiary-color);
+	font-size: 14px;
+	padding: 5px 10px;
+}
+
+.main-content {
+	display: flex;
+}
+
+.left-content {
+	flex: 45;
+	padding: 10px;
+}
+
+.today {
+	color: var(--secondary-color);
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+}
+
+#today-carbon {
+	color: var(--primary-color);
+	margin-left: 20px;
+}
+
+#chart {
+	width: 300px;
+	border-left: solid 1px var(--primary-color);
+	border-bottom: solid 1px var(--primary-color);
+	padding-bottom: none;
+	margin-bottom: none;
+	position: relative;
+	margin-top: 10px;
+}
+
+#chart-default {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #969696;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 100;
+}
+
+.chart-default-hidden {
+	display: none;
+}
+
+.chart-column {
+	width: 10px;
+	float: left;
+}
+
+.chart-area {
+	position: relative;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-left: solid 1px #404040;
+}
+
+.chart-bar-wrap {
+	width: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.chart-bar {
+	width: 8px;
+	position: absolute;
+	bottom: 0;
+	left: 4px;
+	background-color: var(--primary-color);
+}
+
+.chart-bar.today {
+	background-color: var(--primary-color);
+}
+
+.chart-caption {
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.right-content {
+	flex: 55;
+	padding: 10px 30px;
+}
+
+.forecast-title {
+	color: var(--secondary-color);
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#forecast-count {
+	color: var(--primary-color);
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.forecast-equivalent {
+	color: var(--secondary-color);
+	font-size: 14px;
+	padding: 10px 0;
+}
