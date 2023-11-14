@@ -38,7 +38,7 @@ function renderPage() {
 	var columnHeight = 120.0;
 	var ratio = columnHeight / max;
 	var bar = null;
-	var sum = 1000;
+	var sum = 0;
 	var days = 0;
 	chart.style.height = (parseInt(columnHeight)) + 'px';
 
